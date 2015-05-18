@@ -1,0 +1,17 @@
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+#OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
