@@ -23,6 +23,8 @@ AWS.config.credentials.get(function(err) {
   }
 });
 
+console.log(AWS.config.credentials);
+
 /*
 cognitoSyncClient.openOrCreateDataset('myDatasetName', function(err, dataset){
     dataset.put('newRecord', 'newValue', function(err, record) {
